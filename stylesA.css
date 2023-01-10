@@ -1,0 +1,224 @@
+*{background-color: black;}
+
+.body {
+   font-family: sans-serif;
+   display: flex;
+   width: 100vw;
+   height: 200vh;
+   overflow: hidden;
+   background-color: white;
+}
+ /* FONTES */
+ @font-face {
+   font-family:"NeueMachinabold";
+   src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapUltrabold.otf);
+ }
+@font-face {
+   font-family: "NeueMachinaLightitalic" ;
+   src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapLightItalic.otf);
+}
+
+@font-face {
+   font-family: "NeueMachinaLight" ;
+   src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapLight.otf);
+}
+@font-face {
+   font-family: "PPNeueMontrealbook" ;
+   src: url(fonts/PPNeueMontreal-Free_for_personal_use_v2.4/PPNeueMontreal-Book.otf);
+}
+
+/* EFEITOS LINKS*/
+a:link {
+   text-decoration: none;
+   color: white;
+}
+a:visited {
+   text-decoration: none;
+   color: white
+}
+a:hover {
+   text-decoration: none;
+   color: red;
+}
+a:active {
+   text-decoration: underline;
+}
+
+
+/*BARRA NAVEGACAI*/
+
+.navBar_esq {
+   font-size: 15pt;
+   font-family:"NeueMachinaLightitalic", sans-serif;
+   font-weight: 400;
+   color: white;
+   padding: 8px;
+   padding-top: 15px;
+   width: 50vw;
+   display: inline-block;
+   position: fixed;
+   left: 10px;
+   padding-left: 15px;
+   line-height: 1;
+}
+.navBar_esqArch {
+   display: inline-block;
+   padding-right: 30px;
+}
+
+.navBar_dir {
+   font-size: 15pt;
+   font-family:"NeueMachinaLightitalic", sans-serif;
+   font-weight: 400;
+   color: white;
+   padding: 8px;
+   padding-top: 15px;
+   display: inline-block;
+   position: fixed;
+   right: 15px;
+}
+
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+   display: inline-block;
+   padding-left: 30px;
+}
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+   display: inline-block;
+   padding-left: 30px;
+}
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+   display: inline-block;
+   padding-left: 30px;
+}
+
+
+/* BOX LEFT*/ 
+
+.box-left {
+   float: left;
+   border: 0px;
+   top: 80px;
+   background-color: black;
+   width: 35vw;
+   height: max-content;
+   position: fixed;
+}
+
+/*tipografia left box*/
+
+.header {
+   padding: 0;
+   margin-bottom: 20px;
+   box-sizing: border-box; }
+.A{
+   font-size: 40pt;
+   font-family:"NeueMachinabold", sans-serif;
+   font-weight: 800;
+   color: white;
+   margin-left: 50px;
+   margin-top: 0px;} 
+.B{
+   font-size: 40pt;
+   font-family:"NeueMachinabold", sans-serif;
+   font-weight: 800;
+   color: white;
+   margin-left: 50px;
+   margin-top: 60px;}   
+.C{
+      font-size: 40pt;
+      font-family:"NeueMachinabold", sans-serif;
+      font-weight: 800;
+      color: white;
+      margin-left: 50px;
+      margin-top: 60px;}
+
+      .titlemain{
+         font-size: 30pt;}
+
+
+      /* BOX RIGHT*/ 
+
+.box-right {
+   float: right;
+   position: absolute;
+   top: 0px;
+   left: 700px;
+   padding: 10px;
+   width: 60vw;
+   border-left: none;
+   height: 80vh;
+   overflow-x: scroll;
+   overflow-y: scroll;
+   background-color: black;
+
+}
+
+
+.box-right::-webkit-scrollbar {
+width: 3px;
+height: 1px;
+border: 0.5px;
+border-radius: 5px;
+}
+
+.box-right::-webkit-scrollbar-thumb {
+background-color: rgb(70, 69, 69);
+
+}
+
+
+
+/* BOX RIGHT CONTENT*/ 
+
+.accordion {
+background-color: black;
+color: white;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: 1px solid white;
+text-align: left;
+outline: 1px;
+font-size: 30pt;
+transition: 0.4s;
+font-family:"NeueMachinaLight" ;
+border-left: black;
+border-right:black;
+}
+
+.active, .accordion:hover {
+background-color: white;
+color: black;
+}
+
+.panel {
+padding: 0 18px;
+background-color: black;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+font-family: "NeueMachinaLight";
+font-size: 20pt;
+line-height: 30pt;
+margin-left: 25px;
+margin-right: 25px;
+font-weight: 100;
+}
+.capitular{
+font-size: 15pt;
+}
+
+
+/* BOX RIGHT CONTENT*/ 
+ 
+.Texto{
+   color: white;
+   font-family:"NeueMachinaLight";
+   font-size: 30pt;
+   margin-top: 20px;
+   line-height: 40pt;
+}
+
+/* BOX RIGHT CONTENT*/ 
+ 
+ 

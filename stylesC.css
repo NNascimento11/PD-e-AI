@@ -1,0 +1,210 @@
+*{background-color: black;}
+
+.body {
+   font-family: sans-serif;
+   display: flex;
+   width: 100vw;
+   height: 200vh;
+   overflow: hidden;
+   background-color: white;
+}
+ /* FONTES */
+ @font-face {
+   font-family:"NeueMachinabold";
+   src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapUltrabold.otf);
+ }
+@font-face {
+   font-family: "NeueMachinaLightitalic" ;
+   src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapLightItalic.otf);
+}
+
+@font-face {
+   font-family: "NeueMachinaLight" ;
+   src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapLight.otf);
+}
+@font-face {
+   font-family: "PPNeueMontrealbook" ;
+   src: url(fonts/PPNeueMontreal-Free_for_personal_use_v2.4/PPNeueMontreal-Book.otf);
+}
+
+/* EFEITOS LINKS*/
+a:link {
+   text-decoration: none;
+   color: white;
+}
+a:visited {
+   text-decoration: none;
+   color: white
+}
+a:hover {
+   text-decoration: none;
+   color: red;
+}
+a:active {
+   text-decoration: underline;
+}
+
+
+/*BARRA NAVEGACAI*/
+
+.navBar_esq {
+   font-size: 15pt;
+   font-family:"NeueMachinaLightitalic", sans-serif;
+   font-weight: 400;
+   color: white;
+   padding: 8px;
+   padding-top: 15px;
+   width: 50vw;
+   display: inline-block;
+   position: fixed;
+   left: 10px;
+   padding-left: 15px;
+   line-height: 1;
+}
+.navBar_esqArch {
+   display: inline-block;
+   padding-right: 30px;
+}
+
+.navBar_dir {
+   font-size: 15pt;
+   font-family:"NeueMachinaLightitalic", sans-serif;
+   font-weight: 400;
+   color: white;
+   padding: 8px;
+   padding-top: 15px;
+   display: inline-block;
+   position: fixed;
+   right: 15px;
+}
+
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+   display: inline-block;
+   padding-left: 30px;
+}
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+   display: inline-block;
+   padding-left: 30px;
+}
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+   display: inline-block;
+   padding-left: 30px;
+}
+
+
+/* BOX LEFT*/ 
+
+.box-left {
+   float: left;
+   border: 0px;
+   top: 80px;
+   background-color: black;
+   width: 35vw;
+   height: max-content;
+   position: fixed;
+}
+
+/*tipografia left box*/
+
+.header {
+   padding: 0;
+   margin-bottom: 20px;
+   box-sizing: border-box; }
+.A{
+   font-size: 40pt;
+   font-family:"NeueMachinabold", sans-serif;
+   font-weight: 800;
+   color: white;
+   margin-left: 80px;
+   margin-top: 80px;}  
+.B{
+   font-size: 40pt;
+   font-family:"NeueMachinabold", sans-serif;
+   font-weight: 800;
+   color: white;
+   margin-left: 80px;
+   margin-top: 120px;}   
+
+
+
+      /* BOX RIGHT*/ 
+
+.box-right2 {
+   float: right;
+   position: absolute;
+   top: 0px;
+   left: 700px;
+   padding: 10px;
+   width: 60vw;
+   border-left: none;
+   height: 80vh;
+   overflow-x: scroll;
+   overflow-y: scroll;
+   background-color: black;
+
+}
+
+
+.box-right2::-webkit-scrollbar {
+width: 3px;
+height: 1px;
+border: 0.5px;
+border-radius: 5px;
+}
+
+.box-right2::-webkit-scrollbar-thumb {
+background-color: rgb(70, 69, 69);
+
+}
+
+
+
+/* BOX RIGHT CONTENT*/ 
+
+.Texto{
+   color: white;
+   font-family:"NeueMachinaLight";
+   font-size: 30pt;
+   margin-top: 20px;
+   line-height: 40pt;
+}
+
+/* BOX RIGHT CONTENT*/ 
+ 
+ .column.scroll {
+   overflow-y: scroll;
+   /* esta propriedade é standard mas só o firefox a reconhece neste momento */
+   scrollbar-width: none;
+ }
+ 
+ /* este pseudo-elemento não é standard, mas é reconhecido pelos browser baseados em Webkit ou Blink (e.g. Chrome, Safari, etc.)*/
+ .column.scroll::-webkit-scrollbar {
+   display: none;
+ }
+ 
+ ul.selector {
+   list-style: none;
+   padding-inline-start: 1em;
+   margin-block-start: 0.5em;
+   margin-block-end: 0.5em;
+   line-height: 1.3em;
+ }
+ 
+ ul.selector a {
+   color: white;
+   
+ }
+ 
+ ul.selector a:hover {
+   color: red;
+ }
+ 
+ ul.selector a.selected {
+   color: white;
+   text-decoration: underline;
+ }
+ 
+ .content {
+   display: none;
+   color: white;
+ }

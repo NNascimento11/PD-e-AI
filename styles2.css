@@ -1,0 +1,246 @@
+.body {
+    font-family: sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 300vh;
+    overflow: hidden;
+    background-color: white;
+}
+  /* FONTES */
+  @font-face {
+    font-family:"NeueMachinabold";
+    src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapUltrabold.otf);
+  }
+ @font-face {
+    font-family: "NeueMachinaLightitalic" ;
+    src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapLightItalic.otf);
+ }
+ 
+ @font-face {
+    font-family: "NeueMachinaLight" ;
+    src: url(fonts/PP_Neue_Machina_-_Free_for_Personal_Use/PPNeueMachina-InktrapLight.otf);
+ }
+ @font-face {
+    font-family: "PPNeueMontrealbook" ;
+    src: url(fonts/PPNeueMontreal-Free_for_personal_use_v2.4/PPNeueMontreal-Book.otf);
+ }
+
+/* EFEITOS LINKS*/
+a:link {
+    text-decoration: none;
+    color: black;
+ }
+ a:visited {
+    text-decoration: none;
+    color: black;
+ }
+ a:hover {
+    text-decoration: none;
+    color: red;
+ }
+ a:active {
+    text-decoration: underline;
+ }
+
+
+ /*BARRA NAVEGACAI*/
+
+ .navBar_esq {
+    font-size: 15pt;
+    font-family:"NeueMachinaLightitalic", sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 8px;
+    padding-top: 15px;
+    width: 50vw;
+    display: inline-block;
+    position: fixed;
+    left: 10px;
+    padding-left: 15px;
+    line-height: 1;
+}
+.navBar_esqArch {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.navBar_dir {
+    font-size: 15pt;
+    font-family:"NeueMachinaLightitalic", sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 8px;
+    padding-top: 15px;
+    display: inline-block;
+    position: fixed;
+    right: 15px;
+}
+
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+    display: inline-block;
+    padding-left: 30px;
+}
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+    display: inline-block;
+    padding-left: 30px;
+}
+.navBar_dirIndex, .navBar_esqText, .navBar_esqProject {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+
+/*GRADIENTE*/
+
+
+
+
+/* BOX LEFT*/ 
+
+.box-left {
+    float: left;
+    border: 0px;
+    top: 80px;
+    background-color: white;
+    width: 35vw;
+    height: max-content;
+    position: fixed;
+}
+
+/*tipografia left box*/
+
+.header {
+    padding: 0;
+    margin-bottom: 20px;
+    box-sizing: border-box; }
+ .A{
+    font-size: 40pt;
+    font-family:"NeueMachinabold", sans-serif;
+    font-weight: 800;
+    color: black;
+    margin-left: 80px;
+    margin-top: 0px;}  
+ .B{
+    font-size: 40pt;
+    font-family:"NeueMachinabold", sans-serif;
+    font-weight: 800;
+    color: black;
+    margin-left: 80px;
+    margin-top: 30px;}   
+ .C{
+       font-size: 40pt;
+       font-family:"NeueMachinabold", sans-serif;
+       font-weight: 800;
+       color: black;
+       margin-left: 80px;
+       margin-top: 30px;}
+
+ .D{
+        font-size: 40pt;
+        font-family:"NeueMachinabold", sans-serif;
+        font-weight: 800;
+        color: black;
+        margin-left: 80px;
+        margin-top: 30px;}
+
+    .titlemain{
+    font-size: 30pt;}
+    
+.legenda{
+    font-size: 10pt;
+    font-family:"NeueMachinaLightitalic" , sans-serif;
+    font-weight: 100;
+    color: black;
+    margin-left: 80px;
+    margin-top: 20px;
+
+
+}
+
+       /* BOX RIGHT*/ 
+
+.box-right {
+        float: right;
+        position: absolute;
+        top: 0px;
+        left: 700px;
+        padding: 10px;
+        width: 60vw;
+        border-left: none;
+        height: 80vh;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        background-color: white;
+        max-width: 60vw;
+
+    }
+
+
+.box-right::-webkit-scrollbar {
+    width: 3px;
+    height: 1px;
+    border: 0.5px;
+    border-radius: 5px;
+}
+
+.box-right::-webkit-scrollbar-thumb {
+    background-color: rgb(165, 161, 161);
+
+}
+
+
+
+/* BOX RIGHT CONTENT*/ 
+
+.accordion {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+    outline: 1px;
+    font-size: 30pt;
+    transition: 0.4s;
+    font-family:"NeueMachinaLight" ;
+    border-left: white;
+    border-right: white;
+  }
+  
+  .active, .accordion:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: "NeueMachinaLight";
+    font-size: 20pt;
+    line-height: 30pt;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 100;
+  }
+.capitular{
+ font-size: 15pt;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
